@@ -52,6 +52,14 @@ nav {
     
 }
 
+.logo_time_chapecoense{
+display: flex; max-width: 40px; max-height: 40px; width: 35px; height: 35px; margin-top: 10px; margin-left: 10px;"
+}
+
+.logo_time_coritiba, .logo_time_goias, .logo_time_ituano, .logo_time_guarani, .logo_time_mirassol, .logo_time_novorizontino, .logo_time_santos, .logo_time_vila_nova{
+display: flex; max-width: 40px; max-height: 40px; width: 35px; height: 35px; margin-top: 10px; margin-left: 10px;"
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -393,6 +401,16 @@ h2 {
         display: none;
     }
 
+    .logo_time_chapecoense {
+        display: none;
+    }
+
+    .logo_time_coritiba, .logo_time_goias, .logo_time_ituano, .logo_time_guarani, .logo_time_mirassol, .logo_time_novorizontino, .logo_time_santos, .logo_time_vila_nova{
+        display: none;
+    }
+
+    
+
     .campeonato {
         display: flex;
         flex-direction: column;
@@ -574,6 +592,14 @@ h2 {
     }
 
     .logo_time_vitoria {
+        display: none;
+    }
+
+    .logo_time_chapecoense {
+        display: none;
+    }
+
+    .logo_time_coritiba, .logo_time_goias, .logo_time_ituano, .logo_time_guarani, .logo_time_mirassol, .logo_time_novorizontino, .logo_time_santos, .logo_time_vila_nova{
         display: none;
     }
 
